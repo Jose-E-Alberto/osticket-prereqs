@@ -161,5 +161,19 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 </p>
 <p>
 
+- In the browser finish configuring osTickete Installer
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: root
+- Click “Install Now”
+
+With osTicket installed we need to do some cleanup
+- We will want to delete the setup folder in our system
+  - Delete: C:\inetpub\wwwroot\osTicket\setup.
+    - Only delete the "setup" folder
+- Finally set the permissions back to "Read" only in the ost-config.php file.
+
+![image](https://github.com/user-attachments/assets/da4aa1c1-89e4-4393-a048-b1cb40656a2d)
+
   
 </p>
