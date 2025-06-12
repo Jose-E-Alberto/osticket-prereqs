@@ -106,7 +106,6 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 
 ![image](https://github.com/user-attachments/assets/49df8eb2-1236-4084-9e37-46889f79721a)
 
-
 </p>
 <p>
   
@@ -121,9 +120,43 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/9b5fac84-2f36-4bf1-aa88-13bba1a4f291)
+
+</p>
+<p>
+  
+- Frome the browser, click "Continue" for osTicket, and Continue Setting up osTicket
+- Name the Helpdesk
+- Default email (receives email from customers)
+- Make sure you keep track of usernames and passwords
+
+
+</p>
+<br />
+
 <p>
 
 ![image](https://github.com/user-attachments/assets/4ed2a7be-e70a-4297-aa67-553e8c4882d0)
+
+</p>
+<p>
+
+- From the “osTicket-Installation-Files” folder, install HeidiSQL.
+- Launch Heidi SQL
+- Select "new" for new session
+- Set up User and Password
+- Select "open" To connect to the session to the database
+- Create a database called “osTicket”
+  - Right click on "unnamed"-> create new-> Database
+  - Name the database "osTicket"-> click "ok"
+
+  
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/44e5dac3-cc9a-4982-86df-593432c36315)
 
 </p>
 <p>
