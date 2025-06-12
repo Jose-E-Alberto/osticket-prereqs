@@ -75,5 +75,9 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 
 - Open IIS as an Admin
 - From IIS Register PHP (PHP Manager -> C:\PHP\php-cgi.exe)
+- Restart IIS (from IIS, right click server, Stop and Start the server)
+- From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+- Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+- Restart IIS (from IIS, right click server, Stop and Start the server)
 </p>
 <br />
