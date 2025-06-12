@@ -81,3 +81,52 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 - Restart IIS (from IIS, right click server, Stop and Start the server)
 </p>
 <br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/d20634ef-0357-464c-a686-9613b693d750)
+
+</p>
+<p>
+
+- From IIS expand "sites" -> expand "Default website" -> select "osTicket" -> On the right, "manage folder", click “Browse *:80”
+- Note that some extensions are not enabled
+- Go back to IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+- Click “Enable or disable an extension”
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+- Refresh the osTicket site in your browser, observe the changes
+
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/49df8eb2-1236-4084-9e37-46889f79721a)
+
+
+</p>
+<p>
+  
+- ASSIGN PERMISSIONS
+- Right click ost-config.php-> properties->  security-> advanced
+- Click on "Removed all inherited permissions"
+- Click on "add"
+- Click "select a principal"
+- enter "everyone" (not for live environment)
+- select ok-> apply-> ok
+
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/4ed2a7be-e70a-4297-aa67-553e8c4882d0)
+
+</p>
+<p>
+
+  
+</p>
